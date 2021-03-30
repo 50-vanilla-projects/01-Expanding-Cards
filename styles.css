@@ -48,3 +48,20 @@ body {
 .panel.active h3 {
   opacity: 1;
 }
+
+@media (max-width: 600px) {
+
+  body {
+    overflow-y: scroll;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+  }
+
+  .panel {
+    width: 80vw;
+  }
+}
